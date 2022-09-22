@@ -1,0 +1,57 @@
+@import '../../../styles/_variables';
+
+:host ::ng-deep .white > .mat-expansion-indicator:after {
+  color: $sidebar-text-color;
+}
+
+.logo-img {
+  width: 100%;
+}
+
+.divider {
+  content: '';
+  position: relative;
+  height: 1px;
+  left: 15px;
+  width: calc(100% - 30px);
+  background-color: $sidebar-text-color;
+}
+
+.sidebar-menu {
+  flex-direction: row;
+  box-sizing: border-box;
+  display: flex;
+  place-content: center space-between;
+  align-items: center;
+}
+
+.mr10 {
+  margin-right: 10px;
+}
+.is-active {
+  background-color: $sidebar-active-background-color !important;
+}
+.example-sidenav-container {
+  background-color: $sidebar-background-color;
+  position: sticky;
+
+  .mat-nav-list {
+    ::ng-deep .mat-list-item-content {
+      color: $sidebar-text-color;
+    }
+
+    .mat-expansion-panel-header {
+      background-color: $sidebar-background-color;
+    }
+
+    &-title,
+    .mat-expansion-panel-header-description {
+      color: $sidebar-text-color;
+    }
+
+    ::ng-deep .mat-expansion-panel-body {
+      background-color: $sidebar-background-color;
+      color: $sidebar-text-color;
+    }
+  }
+}
