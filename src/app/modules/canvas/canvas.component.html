@@ -1,0 +1,32 @@
+<p>canvas works!</p>
+
+<h1>{{title}}</h1>
+<p>{{definition}}</p>
+<p>El elemento CANVAS le permite <strong>mostrar gráficos, juegos, arte y otros elementos visuales directamente en la
+        página web en tiempo real.</strong> </p>
+
+<p> Si su aplicación necesita ser visualizada en dispositivos móviles (tanto Android como iOS) así como en ordenadores
+    de sobremesa modernos (actualizados a las últimas versiones del navegador), entonces el uso del elemento CANVAS es
+    una buena opción.
+</p>
+<ul>
+    <li> HTML Canvas puede dibujar texto</li>
+    <li> HTML Canvas Puede Dibujar Gráficos</li>
+    <li> HTML Canvas puede ser animado</li>
+    <li> HTML Canvas puede ser interactivo </li>
+    <li> HTML Canvas puede ser utilizado en juegos</li>
+    <!-- Canvas can draw colorful text, with or without animation.
+    Canvas has great features for graphical data presentation with an imagery of graphs and charts.
+    Canvas objects can move. Everything is possible: from simple bouncing balls to complex animations.
+    Canvas can respond to JavaScript events.
+    Canvas can respond to any user action (key clicks, mouse clicks, button clicks, finger movement). -->
+
+</ul>
+<div class="container" style="border:1px solid red;">
+    <canvas #canvas id="canvas" style="border:1px solid #000000;">
+        Your browser does not support the HTML canvas tag.
+    </canvas>
+    <div>
+        <button mat-raised-button color="primary" (click)="play()">Play</button>
+    </div>
+</div>

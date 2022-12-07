@@ -1,0 +1,19 @@
+.container {
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+
+  canvas {
+    margin: 10px;
+  }
+  div {
+    display: flex;
+    justify-content: center;
+
+    button {
+      text-align: center;
+      color: red;
+    }
+  }
+}

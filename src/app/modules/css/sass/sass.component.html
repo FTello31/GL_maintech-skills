@@ -1,0 +1,72 @@
+<p>sass works!</p>
+
+<h1>{{title}} </h1>
+<p>{{definition}}</p>
+
+<h2>Sass basics</h2>
+
+<div>
+    <h3>Variables</h3>
+    <p>
+        Piense en las <strong>variables</strong> como una forma de almacenar información que desea reutilizar en toda la
+        hoja de estilos.
+    </p>
+    <div>
+        <pre>
+            <code>{{code}}</code>
+        </pre>
+    </div>
+
+    <h3>Nesting</h3>
+    <p>
+        Sass te permitirá anidar tus selectores CSS de forma que sigan la misma jerarquía visual de tu HTML.
+    </p>
+    <div>
+        <pre>
+            <code>{{code1}}</code>
+        </pre>
+    </div>
+
+    <h3>Modules</h3>
+    <p>
+        No tienes que escribir todo tu Sass en un solo archivo. Puedes dividirlo como quieras con la regla @use.
+        Esta regla carga otro archivo Sass como un módulo, lo que significa que puedes referirte a sus variables, mixins
+        y funciones
+        en tu archivo Sass con un espacio de nombres basado en el nombre del archivo.
+    </p>
+    <div>
+        <pre>
+            <code>{{code2}}</code>
+        </pre>
+    </div>
+
+    <h3>Mixins</h3>
+    <p>
+        Un mixin te permite crear grupos de declaraciones CSS que deseas <strong>reutilizar</strong> en todo tu sitio.
+        Ayuda a mantener
+        Sass muy DRY. Incluso puedes pasar valores para hacer tu mixin más flexible.
+    </p>
+    <div>
+        <pre>
+            <code>{{code3}}</code>
+        </pre>
+    </div>
+
+    <h3>Extend/Inheritance</h3>
+    <p>
+        Usar @extend te permite compartir un conjunto de propiedades CSS de un selector a otro.
+
+        Lo que hace el código es decirle a .message, .success, que se comporten igual que
+        %message-shared. Esto significa que en cualquier lugar donde aparezca %message-shared, también lo harán
+        .message, .success
+    </p>
+    <div>
+        <pre>
+            <code>{{code4}}</code>
+        </pre>
+    </div>
+
+</div>
+
+
+<a href="https://sass-lang.com/">SASS docs</a>
