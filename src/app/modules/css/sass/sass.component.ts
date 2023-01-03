@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SassComponent implements OnInit {
   title = `Sass`;
-  definition = `CSS with superpowers, Sass es el lenguaje de extensión CSS de grado profesional más maduro, estable y potente del mundo.
+  definition = `CSS with superpowers, Sass is the world's most mature, stable and powerful professional-grade CSS extension language.
     \n 
   `;
   code = `$font-stack: Helvetica, sans-serif;

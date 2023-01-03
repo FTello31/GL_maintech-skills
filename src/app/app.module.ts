@@ -10,10 +10,21 @@ import { ParentSecureComponent } from './core-modules/parent-secure/parent-secur
 import { HomeComponent } from './modules/home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppMaterialModule } from './app-material.module';
-import { WebComponentsComponent } from './modules/web-components/web-components.component';
-import { CanvasComponent } from './modules/canvas/canvas.component';
+import { WebComponentsComponent } from './modules/html/web-components/web-components.component';
+import { CanvasComponent } from './modules/html/canvas/canvas.component';
 import { BootstrapComponent } from './modules/css/bootstrap/bootstrap.component';
 import { SassComponent } from './modules/css/sass/sass.component';
+import { OopPrototypesComponent } from './modules/js/oop-prototypes/oop-prototypes.component';
+import { AjaxComponent } from './modules/js/ajax/ajax.component';
+import { FunctionalProgrammingComponent } from './modules/js/functional-programming/functional-programming.component';
+import { EventsComponent } from './modules/js/events/events.component';
+import { PatternsComponent } from './modules/js/patterns/patterns.component';
+import { WebpackComponent } from './modules/js/webpack/webpack.component';
+import { Http2Component } from './modules/js/http2/http2.component';
+import { WebSocketsComponent } from './modules/js/web-sockets/web-sockets.component';
+import { WebWorkersComponent } from './modules/html/web-workers/web-workers.component';
+import { BemComponent } from './modules/css/bem/bem.component';
+import { TransformationsComponent } from './modules/css/transformations/transformations.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +38,17 @@ import { SassComponent } from './modules/css/sass/sass.component';
     CanvasComponent,
     BootstrapComponent,
     SassComponent,
+    OopPrototypesComponent,
+    AjaxComponent,
+    FunctionalProgrammingComponent,
+    EventsComponent,
+    PatternsComponent,
+    WebpackComponent,
+    Http2Component,
+    WebSocketsComponent,
+    WebWorkersComponent,
+    BemComponent,
+    TransformationsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, AppMaterialModule],
   providers: [],

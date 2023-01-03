@@ -6,11 +6,11 @@ import { Component, ElementRef, NgZone, OnDestroy, OnInit, ViewChild } from '@an
   styleUrls: ['./canvas.component.scss'],
 })
 export class CanvasComponent implements OnInit, OnDestroy {
-  title = `¿Qué es HTML Canvas?`;
-  definition = `El elemento HTML <canvas> se utiliza para dibujar gráficos, sobre la marcha, a través de secuencias de comandos
-  (normalmente JavaScript).\n
-   El elemento <canvas> es sólo un contenedor de gráficos. Debe utilizar un script para dibujar los gráficos.\n
-  El lienzo tiene varios métodos para dibujar rutas, cajas, círculos, texto y añadir imágenes.`;
+  title = `What is HTML Canvas?`;
+  definition = `The HTML <canvas> element is used to draw graphics, on-the-fly, through scripts
+  (usually JavaScript).\n
+  The <canvas> element is just a graphics container. You must use a script to draw the graphics.
+  The canvas has several methods for drawing paths, boxes, circles, text and adding images.`;
 
   @ViewChild('canvas', { static: true }) canvas: ElementRef<HTMLCanvasElement>;
   ctx: CanvasRenderingContext2D;

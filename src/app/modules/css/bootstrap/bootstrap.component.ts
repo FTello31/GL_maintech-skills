@@ -7,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BootstrapComponent implements OnInit {
   title = `Bootstrap`;
-  definition = `Bootstrap es un potente conjunto de herramientas, una colección de herramientas HTML, CSS y JavaScript para crear y construir páginas y aplicaciones web con capacidad de respuesta. 
-  y construir páginas y aplicaciones web responsivas. Bootstrap es un proyecto gratuito y de código abierto alojado en GitHub y creado por Twitter. \n
-  Bootstrap ofrece CSS responsivo que se ajusta a teléfonos, tabletas y ordenadores de sobremesa. 
-  Bootstrap también es compatible con varios navegadores y es compatible con Chrome, Firefox, Internet Explorer, Safari y Opera.
+  definition = `Bootstrap is a powerful toolset, a collection of HTML, CSS and JavaScript tools for creating and building responsive web pages and web applications. 
+  and build responsive web pages and web applications. Bootstrap is a free and open source project hosted on GitHub and created by Twitter. \n
+  Bootstrap offers responsive CSS that conforms to phones, tablets and desktops. 
+  Bootstrap is also cross-browser compatible and supports Chrome, Firefox, Internet Explorer, Safari and Opera.
   \n 
   `;
 
