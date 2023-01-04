@@ -1,1 +1,75 @@
-<p>oop-prototypes works!</p>
+<h1>{{title}}</h1>
+<p>{{definition}}</p>
+
+
+<div>
+    <h2>Classes and instances</h2>
+    <p>
+        When we model a problem in terms of objects in OOP, we create abstract definitions representing the types of
+        objects we want to have in our system.
+
+    </p>
+    <p>
+        For example, if we were modeling a school, we might want to have objects representing professors. Every
+        professor has some properties in common: they all have a name and a subject that they teach.
+    </p>
+    <p>
+        So Professor could be a class in our system. The definition of the class lists the data and methods that every
+        professor has.
+    </p>
+</div>
+
+<div>
+    <h2>Inheritance</h2>
+    <p>Suppose in our school we also want to represent students. Unlike professors, students can't grade papers, don't
+        teach a particular subject, and belong to a particular year.</p>
+    <p>It would be helpful if we could represent the fact that students and professors share some properties, or more
+        accurately, the fact that on some level, they are the same kind of thing. Inheritance lets us do this.</p>
+</div>
+
+<div>
+    <h2>Encapsulation</h2>
+    <p>Objects provide an interface to other code that wants to use them but maintain their own internal state. The
+        object's internal state is kept private, meaning that it can only be accessed by the object's own methods, not
+        from other objects. Keeping an object's internal state private, and generally making a clear division between
+        its public interface and its private internal state, is called encapsulation.</p>
+
+
+</div>
+
+<br>
+<br><br>
+<div>
+
+    <h1>Object prototypes
+    </h1>
+    <p>Prototypes are the mechanism by which JavaScript objects inherit features from one another.</p>
+
+    <p>All JavaScript objects inherit properties and methods from a prototype:</p>
+
+    <ul>
+        <li>Date objects inherit from Date.prototype
+        </li>
+        <li>Array objects inherit from Array.prototype
+        </li>
+        <li>Person objects inherit from Person.prototype
+        </li>
+    </ul>
+    <p>The Object.prototype is on the top of the prototype inheritance chain: Date objects, Array objects, and Person
+        objects inherit from Object.prototype.</p>
+
+    <p>The JavaScript prototype property allows you to add new properties to object constructors:</p>
+
+    <div>
+        <pre>
+                <code>{{code1}}</code>
+            </pre>
+    </div>
+
+    <p>The JavaScript prototype property also allows you to add new methods to objects constructors:</p>
+    <div>
+        <pre>
+                <code>{{code2}}</code>
+            </pre>
+    </div>
+</div>
