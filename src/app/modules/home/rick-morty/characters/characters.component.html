@@ -1,0 +1,35 @@
+<section class="showcase__Wrapper">
+    <div class="showcase__Inner">
+
+        <div *ngFor="let character of characters">
+
+            <article class="characterCard__Wrapper">
+                <div class="characterCard__ImgWrapper"><img src="{{character.image}}" alt="{{character.name}}"></div>
+                <div class="characterCard__ContentWrapper">
+                    <div class="section"><a href="{{character.url}}" rel="noopener noreferrer" target="_blank"
+                            class="externalLink__ExternalLink">
+                            <h2>{{character.name}}</h2>
+                        </a><span class="status"><span class="status__icon"></span> {{character.status}} -
+                            {{character.species}}</span></div>
+                    <div class="section"><span class="text-gray">Last known location:</span><a
+                            href="{{character.location.url}}" rel="noopener noreferrer" target="_blank"
+                            class="externalLink__ExternalLink">{{character.location.name}}</a></div>
+                    <div class="section"><span class="text-gray">First seen in:</span><a href="{{character.episode}}"
+                            rel="noopener noreferrer" target="_blank"
+                            class="externalLink__ExternalLink">{{character.origin.name}}</a></div>
+                </div>
+            </article>
+        </div>
+        <div class="col-md-9 ml-auto mr-auto">
+            <!-- <div [hidden]="!isAllProducts || input.value"> -->
+            <div class="paginationButtons">
+                <button mat-raised-button (click)="previousPage()" [disabled]="disable_prev">
+                    <mat-icon>chevron_left</mat-icon>Previous
+                </button>
+                <button mat-raised-button (click)="nextPage()" [disabled]="disable_next">
+                    Next<mat-icon>chevron_right</mat-icon>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>

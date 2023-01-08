@@ -1,0 +1,77 @@
+.showcase__Wrapper {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 4.5rem 0px;
+  //   background: rgb(39, 43, 51);
+  min-height: calc(50vh - 60px);
+}
+
+.showcase__Inner {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1920px;
+}
+
+.episodeCard__Wrapper {
+  width: 240px;
+  height: 150px;
+  display: flex;
+  overflow: hidden;
+  //   background: rgb(60, 62, 68);
+  border-radius: 0.5rem;
+  margin: 0.75rem;
+  box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
+}
+
+.episodeCard__ImgWrapper {
+  flex: 2 1 0%;
+  width: 100%;
+}
+
+.episodeCard__ImgWrapper img {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  opacity: 1;
+  transition: opacity 0.5s ease 0s;
+  object-position: center center;
+  object-fit: cover;
+}
+
+.episodeCard__ContentWrapper {
+  flex: 3 1 0%;
+  position: relative;
+  padding: 0.75rem;
+  color: rgb(60, 62, 68);
+  display: flex;
+  flex-direction: column;
+}
+
+.episodeCard__ContentWrapper a {
+  color: rgb(60, 62, 68);
+}
+
+.episodeCard__ContentWrapper .status {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.episodeCard__ContentWrapper span {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.episodeCard__ContentWrapper span,
+.episodeCard__ContentWrapper h2 {
+  margin: 0px;
+  padding: 0px;
+}

@@ -27,6 +27,8 @@ import { BemComponent } from './modules/css/bem/bem.component';
 import { TransformationsComponent } from './modules/css/transformations/transformations.component';
 import { RickMortyComponent } from './modules/home/rick-morty/rick-morty.component';
 import { HttpClientModule } from '@angular/common/http';
+import { EpisodesComponent } from './modules/home/rick-morty/episodes/episodes.component';
+import { CharactersComponent } from './modules/home/rick-morty/characters/characters.component';
 
 @NgModule({
   declarations: [
@@ -52,6 +54,8 @@ import { HttpClientModule } from '@angular/common/http';
     BemComponent,
     TransformationsComponent,
     RickMortyComponent,
+    EpisodesComponent,
+    CharactersComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, HttpClientModule, AppMaterialModule],
   providers: [],

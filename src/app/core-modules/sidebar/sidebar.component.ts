@@ -11,7 +11,7 @@ export class SidebarComponent implements OnInit {
     {
       path: 'html',
       title: 'HTML',
-      icon: 'home',
+      icon: 'html',
       children: [
         { path: 'html/web-components', title: 'Web Components', icon: 'CC' },
         { path: 'html/web-workers', title: 'Web Workers', icon: 'PA' },
@@ -21,7 +21,7 @@ export class SidebarComponent implements OnInit {
     {
       path: 'css',
       title: 'CSS',
-      icon: 'home',
+      icon: 'css',
       children: [
         { path: 'css/bem', title: 'BEM / SMACSS / OOCSS', icon: 'CC' },
         { path: 'css/transformations', title: 'Transformations & Transitions', icon: 'PA' },
@@ -32,7 +32,7 @@ export class SidebarComponent implements OnInit {
     {
       path: 'js',
       title: 'JS',
-      icon: 'home',
+      icon: 'javascript',
       children: [
         { path: 'js/oop', title: 'OOP / Prototype', icon: 'CC' },
         { path: 'js/ajax', title: 'Ajax', icon: 'PA' },
