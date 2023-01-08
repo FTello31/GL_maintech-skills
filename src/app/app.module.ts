@@ -25,6 +25,8 @@ import { WebSocketsComponent } from './modules/js/web-sockets/web-sockets.compon
 import { WebWorkersComponent } from './modules/html/web-workers/web-workers.component';
 import { BemComponent } from './modules/css/bem/bem.component';
 import { TransformationsComponent } from './modules/css/transformations/transformations.component';
+import { RickMortyComponent } from './modules/home/rick-morty/rick-morty.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -49,8 +51,9 @@ import { TransformationsComponent } from './modules/css/transformations/transfor
     WebWorkersComponent,
     BemComponent,
     TransformationsComponent,
+    RickMortyComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, AppMaterialModule],
+  imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule, HttpClientModule, AppMaterialModule],
   providers: [],
   bootstrap: [AppComponent],
 })
