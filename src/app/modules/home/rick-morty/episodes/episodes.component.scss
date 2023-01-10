@@ -55,7 +55,8 @@
 }
 
 .episodeCard__ContentWrapper a {
-  color: rgb(60, 62, 68);
+  // color: rgb(60, 62, 68);
+  color: rgb(250, 2, 2);
 }
 
 .episodeCard__ContentWrapper .status {
@@ -74,4 +75,16 @@
 .episodeCard__ContentWrapper h2 {
   margin: 0px;
   padding: 0px;
+}
+
+.pagination_box {
+  padding: 1.5rem 0px;
+}
+
+.pagination__Buttons {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  align-items: center;
 }
